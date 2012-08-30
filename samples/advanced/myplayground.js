@@ -22,7 +22,7 @@ function start(){
 		x-=canvas.offsetLeft;
 		y-=canvas.offsetTop;
 		// Add explosion to explosions stack
-		explosion = new Explosion(particlesCount,x,y,canvas);
+		var explosion = new Explosion(particlesCount,x,y,canvas);
 		console.log("Explosion at:" + x + ":" +y);
 		// Find good place for new explosion in stack
 		var idx;

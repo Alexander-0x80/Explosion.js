@@ -5,7 +5,7 @@ function start(){
 	
 	var canvas = document.getElementById('exp');
 	var cContext = canvas.getContext('2d');
-	explosion = new Explosion(512,250,250,canvas);
+	var explosion = new Explosion(512,250,250,canvas);
 	
 	render();
 	function render(){

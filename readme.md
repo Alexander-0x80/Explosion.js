@@ -7,9 +7,9 @@ It was written as an attempt to understand basic vectors in math as i never unde
 
 Create Explosion : 
 ``` javascript 
-var canvas = document.getElementById('playground');
+var canvas 		= document.getElementById('playground');
 var cContext 	= canvas.getContext('2d');
-explosion = new Explosion(particlesCount,x,y,canvas);
+var explosion 	= new Explosion(particlesCount,x,y,canvas);
 ```
 Now explosion is created for us , but we are responsible for drawing and updating it when needed .
 
