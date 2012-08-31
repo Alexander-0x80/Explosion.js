@@ -22,7 +22,7 @@ function render(){
 	explosion.update();			// Update particle positions
 	explosion.draw();			// Actually draw the particles
 	// Here we tell the browser that we wish to perform an animation 
-	with the callback (render(); in our case) to be invoked before repaint .
+	// with the callback (render(); in our case) to be invoked before repaint .
 	webkitRequestAnimationFrame(render,canvas);
 }
 ```
